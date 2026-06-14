@@ -4,7 +4,7 @@ Version: 1.0.0
 
 This repository contains code and public aggregate examples supporting the manuscript:
 
-**Does cross-wave evaluation overestimate screening performance? An ID-isolated comparison of logistic regression and XGBoost for possible sarcopenia in CHARLS**
+**Does cross-wave validation overestimate screening performance? An ID-isolated evaluation of model complexity for possible sarcopenia in CHARLS**
 
 ## Authors
 
