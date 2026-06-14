@@ -12,7 +12,7 @@ authors:
     email: "zch20080808@126.com"
 preferred-citation:
   type: article
-  title: "Does cross-wave evaluation overestimate screening performance? An ID-isolated comparison of logistic regression and XGBoost for possible sarcopenia in CHARLS"
+  title: "Does cross-wave validation overestimate screening performance? An ID-isolated evaluation of model complexity for possible sarcopenia in CHARLS"
   authors:
     - family-names: "Yu"
       given-names: "Yue"
