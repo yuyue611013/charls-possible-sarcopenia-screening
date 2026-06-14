@@ -4,7 +4,7 @@
 
 ### Final manuscript metadata synchronisation
 
-- Updated the manuscript title to: "Does cross-wave evaluation overestimate screening performance? An ID-isolated comparison of logistic regression and XGBoost for possible sarcopenia in CHARLS".
+- Updated the manuscript title to: "Does cross-wave validation overestimate screening performance? An ID-isolated evaluation of model complexity for possible sarcopenia in CHARLS".
 - Realigned repository descriptions around participant overlap, ID-isolated evaluation, and accuracy-sensitivity discordance.
 - Changed `validation` to `evaluation` where it referred to the current within-CHARLS cross-wave analysis in public-facing documentation.
 - Preserved legitimate `cross-validation` terminology.
