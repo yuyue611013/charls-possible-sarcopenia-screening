@@ -1,0 +1,19 @@
+name: charls-sarcopenia-screening
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13.11
+  - pandas=3.0.1
+  - numpy=2.4.4
+  - scikit-learn=1.8.0
+  - xgboost=3.2.0
+  - scipy=1.17.1
+  - joblib=1.5.3
+  - matplotlib=3.10.8
+  - openpyxl=3.1.5
+  - pyarrow=23.0.1
+  - seaborn=0.13.2
+  - pillow=11.3.0
+  - pip
+  - pip:
+      - python-docx==1.2.0

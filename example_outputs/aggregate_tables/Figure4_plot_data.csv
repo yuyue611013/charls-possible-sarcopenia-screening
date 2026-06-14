@@ -1,0 +1,15 @@
+﻿panel,metric,estimate,ci_lower_95,ci_upper_95,n,note,model,label_definition,positive_n,negative_n,sample_basis,bootstrap_replicates_valid
+A,AUROC advantage,0.011611622853148651,-0.0028379249418441083,0.02626144997804877,2430,Positive values favour Logistic A-only; Brier-score advantage is XGBoost Brier minus Logistic Brier.,,,,,,
+A,AUPRC advantage,0.008721167994488244,-0.010468442947192522,0.028237538112272868,2430,Positive values favour Logistic A-only; Brier-score advantage is XGBoost Brier minus Logistic Brier.,,,,,,
+A,Brier advantage,0.0026581515963192137,-0.00012957424773768971,0.005347356021821889,2430,Positive values favour Logistic A-only; Brier-score advantage is XGBoost Brier minus Logistic Brier.,,,,,,
+A,sensitivity difference,-0.04245973645680817,-0.06707762801312224,-0.01886724090784796,2430,Positive values favour Logistic A-only; Brier-score advantage is XGBoost Brier minus Logistic Brier.,,,,,,
+A,specificity difference,0.038351459645106,0.02395217094601187,0.051907023746367464,2430,Positive values favour Logistic A-only; Brier-score advantage is XGBoost Brier minus Logistic Brier.,,,,,,
+A,F1 difference,-0.019297731050094413,-0.04566468701098181,0.006154302538802138,2430,Positive values favour Logistic A-only; Brier-score advantage is XGBoost Brier minus Logistic Brier.,,,,,,
+B,AUROC,0.67717593263834,0.6541607776856052,0.7007229309735835,2430,,Logistic A-only,Primary available-component label,683.0,1747.0,common paired primary subset,2000.0
+B,AUPRC,0.4691301013420743,0.4322798473166594,0.5090374110720676,2430,,Logistic A-only,Primary available-component label,683.0,1747.0,common paired primary subset,2000.0
+B,AUROC,0.6655643097851913,0.6413868933237741,0.6899879714655316,2430,,XGBoost A+B,Primary available-component label,683.0,1747.0,common paired primary subset,2000.0
+B,AUPRC,0.460408933347586,0.4234544720011896,0.4991299541910549,2430,,XGBoost A+B,Primary available-component label,683.0,1747.0,common paired primary subset,2000.0
+B,AUROC,0.679341488559869,0.6559801914216761,0.7033216797877218,2373,,Logistic A-only,Strict-label sensitivity,683.0,1690.0,common paired strict-label subset,2000.0
+B,AUPRC,0.4825684040262531,0.4451751291134656,0.5205580056307335,2373,,Logistic A-only,Strict-label sensitivity,683.0,1690.0,common paired strict-label subset,2000.0
+B,AUROC,0.670417666577144,0.6467223716145686,0.694340099118302,2373,,XGBoost A+B,Strict-label sensitivity,683.0,1690.0,common paired strict-label subset,2000.0
+B,AUPRC,0.47512052673368893,0.43805651602233686,0.5148251756519835,2373,,XGBoost A+B,Strict-label sensitivity,683.0,1690.0,common paired strict-label subset,2000.0

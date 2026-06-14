@@ -1,0 +1,47 @@
+{
+  "development_waves": [
+    1
+  ],
+  "temporal_validation_waves": [
+    3
+  ],
+  "min_age": 60,
+  "male_grip_cutoff": 28,
+  "female_grip_cutoff": 18,
+  "chair_stand_cutoff_sec": 12,
+  "use_gait_speed_in_main_label": false,
+  "gait_speed_cutoff": 1.0,
+  "exclude_label_component_vars_from_main_model": true,
+  "sex_code_male": 1,
+  "sex_code_female": 0,
+  "grip_unit": "kg",
+  "chair_time_unit": "seconds",
+  "gait_speed_unit": null,
+  "grip_primary_rule": "use_gripsum_as_primary_dominant_hand_max",
+  "parameter_status": {
+    "sex_code_male": {
+      "status": "mapping_supported_confirmed",
+      "reason": "官方 codebook 直接确认原始性别变量 male/female 编码（wave 1: rgender；wave 3: ba000_w2_3），merged 配套 DTA value label 支持 ragender = 1 男性。"
+    },
+    "sex_code_female": {
+      "status": "mapping_supported_confirmed",
+      "reason": "官方 codebook 直接确认原始性别变量 male/female 编码（wave 1: rgender；wave 3: ba000_w2_3），merged 配套 DTA value label 支持 ragender = 0 女性。"
+    },
+    "grip_unit": {
+      "status": "direct_official_plus_mapping_confirmed",
+      "reason": "官方 codebook 直接将 qc003-qc006 标记为 Kg；merged 配套 DTA 的 gripsum/lgrip/rgrip 标签与此一致。"
+    },
+    "chair_time_unit": {
+      "status": "direct_official_plus_mapping_confirmed",
+      "reason": "官方 codebook 直接将 qh003 标记为 Sec；merged 配套 DTA 的 chr5sec 标签与此一致。"
+    },
+    "gait_speed_unit": {
+      "status": "needs_manual_confirmation",
+      "reason": "官方 codebook 直接给出的是 Walking Speed Time-1/Time-2，而不是 merged wspeed 的最终换算规则；在未确认前，不能将 wspeed 直接按 m/s 使用。"
+    },
+    "grip_primary_rule": {
+      "status": "mapping_supported_confirmed",
+      "reason": "merged 配套 DTA 直接将 gripsum 标注为“优势手的最大测量值”；当前第一部分可据此作为主握力字段。若后续需要完全回到原始试验级变量，可再用 qc003-qc006 重新构造。"
+    }
+  }
+}

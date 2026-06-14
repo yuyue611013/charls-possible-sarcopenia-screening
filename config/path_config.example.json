@@ -1,0 +1,6 @@
+{
+  "project_root": ".",
+  "wave1_input": "data/authorised_charls_wave1_input.csv",
+  "wave3_input": "data/authorised_charls_wave3_input.csv",
+  "output_root": "outputs"
+}

@@ -1,0 +1,74 @@
+{
+  "input_csv": "Working_data/charls.csv",
+  "id_col": "ID (受访者编码)",
+  "wave_col": "wave (第几波调查)",
+  "age_col": "age (年龄)",
+  "sex_col": "ragender (性别)",
+  "grip_main_col": "gripsum (优势手的最大测量值)",
+  "grip_left_col": "lgrip (左手的最大握力测试)",
+  "grip_right_col": "rgrip (右手的最大握力测试)",
+  "chair_time_col": "chr5sec (5次站立的时间)",
+  "chair_complete_col": "chr5comp (是否完成5次站立)",
+  "chair_count_col": "chr5num (完成站立的次数)",
+  "gait_speed_col": "wspeed (步行速度测试-均值)",
+  "height_col": "mheight (身高/m)",
+  "weight_col": "mweight (体重/kg)",
+  "bmi_col": "bmi (BMI)",
+  "waist_col": "mwaist (腰围/cm)",
+  "blood_biomarker_cols": {
+    "glucose": "bl_glu (Glucose (mg/dl)血糖)",
+    "hba1c": "bl_hbalc (Glycated Hemoglobin糖化血红蛋白 (%))",
+    "crp": "bl_crp (C-Reactive Protein (CRP) C反应蛋白(mg/l))",
+    "creatinine": "bl_crea (Creatinine (mg/dl)肌酐)",
+    "bun": "bl_bun (Blood Urea Nitrogen (BUN) (mg/dl)尿素氮)",
+    "uric_acid": "bl_ua (Uric Acid尿酸(mg/dl))",
+    "hemoglobin": "bl_hgb (Hemoglobin血红蛋白 (g/dl))",
+    "cystatin_c": "bl_cysc (Cystatin C胱抑素C(mg/l))",
+    "total_cholesterol": "bl_cho (Total Cholesterol (mg/dl)总胆固醇)",
+    "triglycerides": "bl_tg (Triglycerides甘油三酯 (mg/dl))",
+    "hdl": "bl_hdl (Hdl Cholesterol高密度脂蛋白胆固醇 (mg/dl))",
+    "ldl": "bl_ldl (Ldl Cholesterol低密度脂蛋白胆固醇 (mg/dl))"
+  },
+  "field_confirmation": {
+    "sex_col": {
+      "status": "mapping_supported_confirmed",
+      "reason": "官方 codebook 直接确认 wave 1 原始变量 rgender = 1 male / 2 female（CHARLS_codebook.pdf PDF页173-174）；wave 3 原始变量 ba000_w2_3 = 1 male / 2 female（CHARLS_2015_Codebook.pdf PDF页5）。merged 配套 DTA 的 value label 进一步支持 ragender = 0 女性 / 1 男性。"
+    },
+    "grip_main_col": {
+      "status": "mapping_supported_confirmed",
+      "reason": "官方 codebook 直接确认原始握力试验变量 qc003-qc006 为左右手握力测量（Kg）；merged 配套 DTA 将 gripsum 标注为“优势手的最大测量值”，可作为当前第一部分主握力字段。其派生口径来自映射支持，而非 codebook 直接给出的同名变量。"
+    },
+    "grip_left_col": {
+      "status": "mapping_supported_confirmed",
+      "reason": "官方 codebook 直接确认 qc003/qc005 为左手握力测量（Kg）；merged 配套 DTA 中 lgrip 标注为“左手的最大握力测试”，可作为左手最大值字段。"
+    },
+    "grip_right_col": {
+      "status": "mapping_supported_confirmed",
+      "reason": "官方 codebook 直接确认 qc004/qc006 为右手握力测量（Kg）；merged 配套 DTA 中 rgrip 标注为“右手的最大握力测试”，可作为右手最大值字段。"
+    },
+    "chair_time_col": {
+      "status": "mapping_supported_confirmed",
+      "reason": "官方 codebook 直接确认 repeated chair stands 变量 qh003 为 Sec（baseline PDF页1178-1179；2015 PDF页1171-1172）。merged 配套 DTA 中 chr5sec 标注为“5次站立的时间”，可作为当前 5 次起立主时间字段。"
+    },
+    "gait_speed_col": {
+      "status": "deferred_for_sensitivity_only",
+      "reason": "官方 codebook 直接确认原始变量 qg002/qg003 为 Walking Speed Time-1/Time-2（baseline PDF页1175-1176；2015 PDF页1168-1170），但 merged 的 wspeed 为“步行速度测试-均值”，其具体计算方式与单位未被官方文档直接确认，当前仅保留为敏感性分析候选字段。"
+    },
+    "height_col": {
+      "status": "available_with_qc_review",
+      "reason": "字段存在，但审计发现极端值，需在 QC 规则中单独审查。"
+    },
+    "weight_col": {
+      "status": "available_with_qc_review",
+      "reason": "字段存在，但审计发现 0 值，需在 QC 规则中单独审查。"
+    },
+    "bmi_col": {
+      "status": "available_with_qc_review",
+      "reason": "字段存在，但审计发现极端异常值，需在 QC 规则中单独审查。"
+    },
+    "blood_biomarker_cols": {
+      "status": "partial_official_support_not_label_blocker",
+      "reason": "2015 官方 codebook 在 Blood Data 章节直接给出 bl_* 单位（PDF页1185-1187）；baseline PDF 未检出同名 bl_* 条目。merged wave1/wave3 配套 DTA 的变量标签与 2015 单位描述一致，可作为映射支持，但如进入正式建模前的变量字典，仍建议结合官方资料再次核对。"
+    }
+  }
+}

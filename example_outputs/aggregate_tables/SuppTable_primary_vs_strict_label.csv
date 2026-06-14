@@ -1,0 +1,53 @@
+﻿model,primary_model_name,strict_model_name,dataset,comparison_item,primary_value,strict_value,strict_minus_primary
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,sample_size,5900.0,5597.0,-303.0
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,positive_n,2787.0,2787.0,0.0
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,negative_n,3113.0,2810.0,-303.0
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,prevalence,0.4723728813559322,0.4979453278542076,0.0255724464982753
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,AUROC,0.6809434053820851,0.7006882488217411,0.0197448434396559
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,AUPRC,0.6417658456223212,0.6984896798169902,0.0567238341946689
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,Brier score,0.2248384548539218,0.2191253645017952,-0.0057130903521265
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,accuracy,0.6371186440677966,0.6474897266392711,0.0103710825714744
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,sensitivity,0.5421600287047004,0.6092572658772875,0.067097237172587
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,specificity,0.7221329906842274,0.6854092526690392,-0.0367237380151882
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,F1,0.5853186132093744,0.6325200223505308,0.0472014091411564
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,calibration_intercept,-0.0040451196981765,-0.0003612698346472,0.0036838498635292
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,Wave 1 development OOF,calibration_slope,0.9643732859215712,0.9753493262860908,0.0109760403645196
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,sample_size,5781.0,5498.0,-283.0
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,positive_n,2704.0,2704.0,0.0
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,negative_n,3077.0,2794.0,-283.0
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,prevalence,0.4677391454765611,0.4918152055292834,0.0240760600527222
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,AUROC,0.6749840869362881,0.6943699754969439,0.0193858885606558
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,AUPRC,0.6276035263051336,0.6869721619486509,0.0593686356435172
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,Brier score,0.2268367880038736,0.2213397032359742,-0.0054970847678993
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,accuracy,0.6267081819754368,0.6418697708257548,0.015161588850318
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,sensitivity,0.5384615384615384,0.5920857988165681,0.0536242603550296
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,specificity,0.7042573935651608,0.690050107372942,-0.0142072861922187
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,F1,0.5743589743589743,0.619222587507252,0.0448636131482776
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,calibration_intercept,-0.0226878316772958,-0.008576423404889,0.0141114082724067
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,Wave 1 development OOF,calibration_slope,0.8161378913107207,0.8513622464674212,0.0352243551567005
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,sample_size,2453.0,2391.0,-62.0
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,positive_n,694.0,694.0,0.0
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,negative_n,1759.0,1697.0,-62.0
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,prevalence,0.2829188748471259,0.2902551233793392,0.0073362485322132
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,AUROC,0.6798048078797719,0.6822108518338007,0.0024060439540287
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,AUPRC,0.475925945313261,0.4901318162634439,0.0142058709501828
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,Brier score,0.1942991908508951,0.1985459688438567,0.0042467779929615
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,accuracy,0.7305340399510803,0.7093266415725638,-0.0212073983785165
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,sensitivity,0.2910662824207493,0.3731988472622478,0.0821325648414985
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,specificity,0.9039226833428085,0.8467884502062463,-0.0571342331365621
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,F1,0.3793427230046948,0.427040395713108,0.0476976727084131
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,calibration_intercept,-0.4338172108675491,-0.5377431978941665,-0.1039259870266173
+Logistic A-only,logistic_A_only_id_isolated,logistic_A_only_strict_label,ID-isolated Wave 3 validation,calibration_slope,1.1500196424926834,1.0147713741948858,-0.1352482682977975
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,sample_size,2430.0,2373.0,-57.0
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,positive_n,683.0,683.0,0.0
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,negative_n,1747.0,1690.0,-57.0
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,prevalence,0.2810699588477366,0.2878213232195533,0.0067513643718166
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,AUROC,0.6655643097851913,0.670417666577144,0.0048533567919526
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,AUPRC,0.460408933347586,0.4751205267336889,0.0147115933861028
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,Brier score,0.1971344701768457,0.2013779749725095,0.0042435047956637
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,accuracy,0.7148148148148148,0.6957437842393595,-0.0190710305754553
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,sensitivity,0.3294289897510981,0.3660322108345534,0.0366032210834553
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,specificity,0.8654836863194046,0.8289940828402367,-0.0364896034791679
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,F1,0.3937007874015748,0.409165302782324,0.0154645153807492
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,calibration_intercept,-0.5251097340893227,-0.5956422129481248,-0.0705324788588021
+XGBoost A+B,xgboost_A_plus_B_id_isolated,xgboost_A_plus_B_strict_label,ID-isolated Wave 3 validation,calibration_slope,0.9563224757091195,0.9060116540856874,-0.0503108216234321

@@ -1,0 +1,12 @@
+﻿subgroup_domain,subgroup_label,n,positive_n,negative_n,prevalence,adequacy_flag,one_class_flag,graph_included
+Sex,Men,1184,290,894,0.24493243243243243,adequate,False,True
+Sex,Women,1246,393,853,0.31540930979133225,adequate,False,True
+Age,60-69 years,2176,545,1631,0.25045955882352944,adequate,False,True
+Age,70-79 years,201,101,100,0.5024875621890548,adequate,False,True
+Age,>=80 years,53,37,16,0.6981132075471698,imprecise_small_subgroup,False,False
+Residence,Rural,1461,449,1012,0.3073237508555784,adequate,False,True
+Residence,Urban,969,234,735,0.24148606811145512,adequate,False,True
+Education,High school or above,198,24,174,0.12121212121212122,imprecise_small_subgroup,False,False
+Education,Less than primary school,1348,455,893,0.3375370919881306,adequate,False,True
+Education,Middle school,387,68,319,0.17571059431524547,adequate,False,True
+Education,Primary school,497,136,361,0.27364185110663986,adequate,False,True
